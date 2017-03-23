@@ -12,4 +12,4 @@ $sourceDir = 'C:\code\azcopy'
 $destkey = "<storage account key>"
 $dest = "<destination storage account>"
 
-azcopy /Source:$sourceDir /S /Dest:$dest /DestKey:$destkey /V:$logfile /Y /MT
+azcopy /Source:$sourceDir /S /Dest:$dest /DestKey:$destkey /V:$logfile /Y
